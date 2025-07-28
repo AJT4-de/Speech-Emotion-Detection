@@ -224,8 +224,8 @@ Speech Emotion Detection/
 | Model | Overall Accuracy | Training Time | Best Emotion | Challenging Emotion |
 |-------|------------------|---------------|--------------|-------------------|
 | 🌳 **Random Forest** | **92%** | ⚡ Fast | Calm (100%) | Neutral |
-| 🔄 **RNN-LSTM** | **89%** | 🕐 Medium | - | - |
-| 🖼️ **CNN Mel-Spec** | **87%** | 🕐 Medium | - | - |
+| 🔄 **RNN-LSTM** | **89%** | 🕐 Medium | Calm (94%) | Anger |
+| 🖼️ **CNN Mel-Spec** | **87%** | 🕐 Medium | Happy(92%)| Neutral |
 
 ### 🌳 Random Forest (All Datasets) - *Recommended*
 - **✅ Overall Test Accuracy**: 92%
