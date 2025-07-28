@@ -1,0 +1,108 @@
+# Dataset directories and files
+datasets/
+Emotion Speech Dataset/
+RAVDESS/
+RAVDESS_data/
+ravdess/
+
+# Case variations for dataset folders
+**/datasets/
+**/Emotion Speech Dataset/
+**/RAVDESS/
+**/RAVDESS_data/
+**/ravdess/
+
+# Audio file extensions (common audio formats)
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.wma
+
+# Model files (often large binary files)
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.pth
+*.pt
+
+# Cache and temporary files
+*.cache
+*.tmp
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Feature cache files
+features_cache.pkl
+*.npy
+
+# Log files
+*.log
+*.out
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Training outputs and results
+training_history.png
+confusion_matrix.png
+dataset_analysis.png
+
+# Large model files
+*_best_model.*
+ser_cnn_best_model.*
+ser_model.*
+
+# CUDA DLL files (if present)
+cublas*.dll
+cudart*.dll
+cublasLt*.dll
